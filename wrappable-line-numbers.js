@@ -21,7 +21,7 @@
 
         env.element.innerHTML = env.element.innerHTML
             .replace(/^/gm, "<span class=\"wrappable-line-numbers-rows\">")
-            .replace(/\n$/g, "</span>");
+            .replace(/\n|$/g, "</span>");
 
         if (pre.hasAttribute("data-start")) {
             pre.style.counterReset = "linenumber " + (pre.getAttribute("data-start") - 1);

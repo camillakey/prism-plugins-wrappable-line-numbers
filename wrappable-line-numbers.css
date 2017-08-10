@@ -25,3 +25,8 @@ span.wrappable-line-numbers-rows::before {
 	counter-increment: linenumber;
 	user-select: none;
 }
+
+span.wrappable-line-numbers-rows:empty::after {
+	content: " ";
+	user-select: none;
+}
