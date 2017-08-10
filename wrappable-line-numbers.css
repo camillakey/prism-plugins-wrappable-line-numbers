@@ -11,6 +11,7 @@ pre.wrappable-line-numbers code {
 
 span.wrappable-line-numbers-rows {
 	position: relative;
+	display: block;
 }
 
 span.wrappable-line-numbers-rows::before {
